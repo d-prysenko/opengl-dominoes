@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{dba3663c-0968-486e-9155-f87e86b2c136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gfx">
+      <UniqueIdentifier>{d4e9f143-a8c7-4234-bacb-5e0b8f96f589}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="game\board.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\domino.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gfx\shader.cpp">
+      <Filter>game\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\libs\src\glad.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gfx\vbo.cpp">
+      <Filter>game\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gfx\vao.cpp">
+      <Filter>game\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gfx\renderer.cpp">
+      <Filter>game\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="game\logic.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gfx\window.cpp">
+      <Filter>game\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="game\player.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\board.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\domino.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gfx\shader.h">
+      <Filter>game\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gfx\vbo.h">
+      <Filter>game\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gfx\vao.h">
+      <Filter>game\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="game\res\models\coords.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gfx\renderer.h">
+      <Filter>game\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="game\logic.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gfx\window.h">
+      <Filter>game\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="game\player.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
